@@ -18,4 +18,15 @@ yum install git -y
 ```
 ![image](https://user-images.githubusercontent.com/40553867/206893761-8adf2b5e-01a6-40a2-9a4c-7a009f01ee79.png)
 ## docker file
-![image](https://user-images.githubusercontent.com/40553867/206894067-dafce5ea-c137-469c-96f9-c526f216bd11.png)
+![image](https://user-images.githubusercontent.com/40553867/206894735-81ab1cd6-2ed8-41db-8324-790d28b1065a.png)
+### crete image and run container
+```
+docker image build -t node:1 . --progress=plain
+```
+```
+docker container run -itd -p 5000:5000 node:1 
+```
+### inbound rule 5000
+![image](https://user-images.githubusercontent.com/40553867/206894864-2fe18fea-51dd-4211-9ff7-3a55a20f0c5b.png)
+
+
