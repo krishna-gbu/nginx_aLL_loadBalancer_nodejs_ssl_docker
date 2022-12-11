@@ -12,3 +12,10 @@
 ###install docker 
 https://www.server-world.info/en/note?os=CentOS_Stream_9&p=docker&f=1
 ![image](https://user-images.githubusercontent.com/40553867/206893422-c23fb4d5-de04-4d20-8684-db82a7589905.png)
+### git install 
+```
+yum install git -y
+```
+![image](https://user-images.githubusercontent.com/40553867/206893761-8adf2b5e-01a6-40a2-9a4c-7a009f01ee79.png)
+## docker file
+![image](https://user-images.githubusercontent.com/40553867/206894067-dafce5ea-c137-469c-96f9-c526f216bd11.png)
