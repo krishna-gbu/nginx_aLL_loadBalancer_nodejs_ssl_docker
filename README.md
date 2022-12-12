@@ -68,5 +68,25 @@ https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-
 ![image](https://user-images.githubusercontent.com/40553867/206956323-ac2caad2-d08b-4788-be1a-119851970b37.png)
 ![image](https://user-images.githubusercontent.com/40553867/206956340-33bc4b57-c3f9-449f-804d-d270b985a1c1.png)
 ![image](https://user-images.githubusercontent.com/40553867/206956354-532e6dbf-1754-4b5d-9223-e87e24439fe0.png)
+## Choosing a Load-Balancing Method
+https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/
+#### 1 Round Robin – 
+Requests are distributed evenly across the servers, with server weights taken into consideration. This method is used by default (there is no directive for enabling it):
+
+```
+upstream {
+  server 127.0.0.1:5000;
+  server 127.0.0.1:5001;
+  server 127.0.0.1:5002;
+}
+server {
+  listen 80;
+  server_name lbwithnginx.tk www.lbwithnginx.tk
+  location / {
+  proxy_pass http://lbwithnginx.tk;
+  }
+}
+```
+
 
 
