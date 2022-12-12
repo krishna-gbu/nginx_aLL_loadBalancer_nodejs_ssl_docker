@@ -65,4 +65,8 @@ https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-
 
 ![image](https://user-images.githubusercontent.com/40553867/206956137-081ea263-97d1-4e6e-9099-6ed178c81258.png)
 ![image](https://user-images.githubusercontent.com/40553867/206956163-6adfb1f7-022b-4966-9e31-5b0c4ab323bd.png)
+![image](https://user-images.githubusercontent.com/40553867/206956323-ac2caad2-d08b-4788-be1a-119851970b37.png)
+![image](https://user-images.githubusercontent.com/40553867/206956340-33bc4b57-c3f9-449f-804d-d270b985a1c1.png)
+![image](https://user-images.githubusercontent.com/40553867/206956354-532e6dbf-1754-4b5d-9223-e87e24439fe0.png)
+
 
