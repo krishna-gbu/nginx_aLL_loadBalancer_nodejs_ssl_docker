@@ -144,3 +144,12 @@ Each request will be passed to a randomly selected server. If the two parameter 
 + least_conn – The least number of active connections
 + least_time=header (NGINX Plus) – The least average time to receive the response header from the server ($upstream_header_time)
 + least_time=last_byte (NGINX Plus) – The least average time to receive the full response from the server ($upstream_response_time)
+
+upstream lbwithnginx.tk {
+  random two least_time=last_byte;
+  server 127.0.0.1:5000;
+  server 127.0.0.1:5001;
+  server 127.0.0.1:5002;
+}
+The Random load balancing method should be used for distributed environments where multiple load balancers are passing requests to the same set of backends. For environments where the load balancer has a full view of all requests, use other load balancing methods, such as round robin, least connections and least time.
+
