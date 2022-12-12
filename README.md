@@ -51,4 +51,7 @@ docker container run -itd -p 5000:5000 node:1
 ### now nginx start
 #### repo of nginx
 https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source/
+![image](https://user-images.githubusercontent.com/40553867/206949294-f25068b9-1702-4b93-aea1-c8b89da1f6f8.png)
+
+![image](https://user-images.githubusercontent.com/40553867/206949345-7cbe9af1-e405-4d3a-81f5-1c51c318e02b.png)
 
