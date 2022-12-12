@@ -55,3 +55,14 @@ https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-
 
 ![image](https://user-images.githubusercontent.com/40553867/206949345-7cbe9af1-e405-4d3a-81f5-1c51c318e02b.png)
 
+## setup nginx
+![image](https://user-images.githubusercontent.com/40553867/206951221-7a62587d-9ff9-4aac-ac25-2140f4588a8e.png)
+![image](https://user-images.githubusercontent.com/40553867/206951894-a30995fd-7094-4087-b207-6ac309ebd23a.png)
+![image](https://user-images.githubusercontent.com/40553867/206952032-a7d43b2d-e81a-4eb8-925d-c39862f69b12.png)
+![image](https://user-images.githubusercontent.com/40553867/206952106-31a986b8-52bd-4595-b113-7ad2162f999b.png)
+![image](https://user-images.githubusercontent.com/40553867/206952800-46a9408a-1f5e-493a-b5b9-aadaf26380b0.png)
+![image](https://user-images.githubusercontent.com/40553867/206956111-4f3c9225-a869-453d-bd99-8c45933ac8b5.png)
+
+![image](https://user-images.githubusercontent.com/40553867/206956137-081ea263-97d1-4e6e-9099-6ed178c81258.png)
+![image](https://user-images.githubusercontent.com/40553867/206956163-6adfb1f7-022b-4966-9e31-5b0c4ab323bd.png)
+
