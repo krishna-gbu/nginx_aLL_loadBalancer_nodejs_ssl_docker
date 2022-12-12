@@ -153,3 +153,14 @@ upstream lbwithnginx.tk {
 }
 The Random load balancing method should be used for distributed environments where multiple load balancers are passing requests to the same set of backends. For environments where the load balancer has a full view of all requests, use other load balancing methods, such as round robin, least connections and least time.
 
+## Server Weights
+By default, NGINX distributes requests among the servers in the group according to their weights using the Round Robin method. The weight parameter to the server directive sets the weight of a server; the default is 1:
+```
+upstream lbwithnginx.tk {
+  server 127.0.0.1:5000 weight=5;
+  server 127.0.0.1:5001;
+  server 127.0.0.1:5002;
+}
+```
+if 7 request comming so 5 request to 5000 and remaining to 5001 and 5002
+
