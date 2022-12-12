@@ -164,3 +164,6 @@ upstream lbwithnginx.tk {
 ```
 if 7 request comming so 5 request to 5000 and remaining to 5001 and 5002
 
+## adding ssl
+https://github.com/krishna-gbu/add_ssl_in_website_nginx_and_route_53
+
